@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #d8d8d8;
+  background-color: #eaedf1;
 }
 
 /* class */
@@ -17,6 +17,10 @@ body {
 .container {
   width: 960px;
   margin: 0 auto;
+}
+
+.container.medium {
+  width: 500px;
 }
 
 /* 一个模块 */
@@ -69,6 +73,11 @@ body {
 .section_hide {
   display: none;
 }
+
+.error {
+  color: #e76e66;
+}
+
 /* id */
 
 /* head 头部 */
@@ -193,10 +202,20 @@ body {
 }
 
 /* 主体部分 */
-#main {}
-
 #dashboard {
   min-height: 520px;
+}
+
+#main {
+  padding: 15px 15px 5px;
+}
+
+/* 模块 */
+#module-name h1 {
+  margin: 0;
+
+  font-size: 22px;
+  line-height: 1.6em;
 }
 
 #side-nav {
@@ -208,4 +227,27 @@ body {
 /* 页脚部分 */
 #copyleft {
   text-align: center;
+}
+
+/* 登录 */
+#login {
+  margin-top: 140px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+#login header {
+  margin-bottom: 25px;
+}
+
+#login header h1 {
+  margin: 0;
+
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#login .pure-control-group {
+  margin-bottom: 20px;
 }
