@@ -227,7 +227,19 @@ body {
 /* 页脚部分 */
 #copyleft {
   text-align: center;
+  color: #99a;
 }
+
+#copyleft a:link {
+  text-decoration: none;
+  color: #99a;
+}
+
+#copyleft a:visited {
+  text-decoration: none;
+  color: #99a;
+}
+
 
 /* 登录 */
 #login {
