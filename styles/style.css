@@ -140,36 +140,6 @@ body {
   vertical-align: middle;
 }
 
-/*切换项目的按钮状态*/
-#switchProject {
-  position: absolute;
-  margin-left: 353px;
-  margin-top: 7px;
-  text-align: left;
-
-  width: 200px;
-  background-color: white;
-  border-radius: 3px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-}
-
-#switchProject > div {
-  padding: 3px;
-}
-
-#switchProject a {
-  display: block;
-}
-
-#switchProject a:link {
-  color: blue;
-  text-decoration: none;
-}
-
-#switchProject a:hover {
-  text-decoration: underline;
-}
-
 #head-nav {
   padding: 2px 5px 2px 15px;
 
