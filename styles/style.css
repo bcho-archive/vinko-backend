@@ -32,6 +32,7 @@ body {
   background-color: #fefefe;
   border-radius: 4px;
   border: 1px solid #cecece;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 /* 列表元素 */
@@ -53,16 +54,6 @@ body {
   position: relative;
 }
 
-.item a:link {
-  color: black;
-  text-decoration: none;
-}
-
-.item a:hover {
-  color: red;
-  text-decoration: none;
-}
-
 /*三角符号图标*/
 .section {
   position: absolute; 
@@ -78,6 +69,26 @@ body {
   color: #e76e66;
 }
 
+.pure-button {
+  font-size: 80%;
+}
+
+.pure-form {
+  margin-bottom: 25px;
+}
+
+.pure-form:last-child {
+  margin-bottom: 5px;
+}
+
+.pure-form-stacked label {
+  margin: .45em 0;  
+}
+
+.pure-control-group {
+  margin: 5px 0px 15px;
+}
+
 /* id */
 
 /* head 头部 */
@@ -87,32 +98,36 @@ body {
 }
 
 #logo {
-  padding: 5px 2px 2px 7px;
+  padding: 5px 2px 2px 2px;
 
   background-color: #111;
   border-radius: 4px 0 0 4px;
 }
 
+#logo a {
+  text-decoration: none;
+}
+
 #logo h1 {
   margin: 0;
 
-  color: #f5f5f5;
-  font-size: 24px;
-  line-height: 35px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /*不能在:前后有空格，否则出错*/
 /*logo的状态*/
 #logo:hover {
-
-  background-color: orange;
+  background-color: #cb3f20;
 }
 
 #sub-nav {
   text-align: right;
 
   background-color: white;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 #sub-nav a:link {
@@ -147,7 +162,6 @@ body {
   border-radius: 0 4px 4px 0;
   background-color: #f5f5f5;
   border-left: 1px solid #cecece;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 #head-nav .item {
@@ -188,16 +202,38 @@ body {
   line-height: 1.6em;
 }
 
+#module-content {
+  overflow: hidden;
+}
+
 #side-nav {
   padding-left: 10px;
 
   border-left: 1px solid #cecece;
 }
 
+#side-nav h3 {
+  padding-left: 5px;
+
+  font-weight: 400;
+}
+
+#side-nav .item a {
+  color: #333;
+  text-decoration: none;
+}
+
+#side-nav .item a:hover {
+  color: #cb3f20;
+}
+
+
 /* 页脚部分 */
 #copyleft {
   text-align: center;
   color: #99a;
+  font-size: 12px;
+  text-shadow: -1px 0px 5px rgba(51, 51, 51, 0.25);
 }
 
 #copyleft a:link {
@@ -209,7 +245,6 @@ body {
   text-decoration: none;
   color: #99a;
 }
-
 
 /* 登录 */
 #login {
