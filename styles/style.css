@@ -298,12 +298,33 @@ button.close {
 padding-left: 17px;
 }
 
+#module-content a {
+  text-decoration: none;
+  color: #0f86e2;
+}
+
+#module-content a:hover {
+  text-decoration: underline;
+}
+
+#module-content li {
+  margin-bottom: 5px;
+}
+
+#module-content li:last-child {
+  margin-bottom: 0;
+}
+
 #side-nav {
+  padding-left: 10px;
+
   text-align: left;
   border-left: 1px solid #cecece;
 }
 
 #side-nav h3 {
+  padding-left: 5px;
+
   font-weight: 400;
 }
 
