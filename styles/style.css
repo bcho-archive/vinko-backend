@@ -53,11 +53,13 @@ body {
 }
 
 .items .item {
-  font-size: 16px;
   margin-top: 10px;
   padding: 5px 0 5px 20px;
-  
   position: relative;
+  left: -1px; /*保证三角形图片能覆盖border*/
+
+  font-size: 16px;
+  
 }
 
 /*三角符号图标*/
