@@ -177,6 +177,10 @@ body {
   text-decoration: none;
 }
 
+#head-nav a:hover {
+  color: #cb3f20;
+}
+
 #head-nav a .fa {
   margin-right: 3px;
 }
@@ -206,9 +210,27 @@ body {
   overflow: hidden;
 }
 
+#module-content a {
+  text-decoration: none;
+  color: #0f86e2;
+}
+
+#module-content a:hover {
+  text-decoration: underline;
+}
+
+#module-content li {
+  margin-bottom: 5px;
+}
+
+#module-content li:last-child {
+  margin-bottom: 0;
+}
+
 #side-nav {
   padding-left: 10px;
 
+  text-align: left;
   border-left: 1px solid #cecece;
 }
 
@@ -225,6 +247,11 @@ body {
 
 #side-nav .item a:hover {
   color: #cb3f20;
+}
+
+#side-nav .item .fa {
+  margin-left: 5px;
+  margin-right: 8px;
 }
 
 
