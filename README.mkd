@@ -1,0 +1,38 @@
+# Vinko 后台主题
+
+一个简单的后台主题 [WIP]
+
+[demo](http://vtmer.github.io/vinko-backend/)
+
+
+## 包含页面
+
+- [登录页](signin.html)
+
+- [主入口页](index.html)
+
+- [站点信息页](site.html)
+
+- [用户信息页](user.html)
+
+
+## 特别感谢
+
+最初版的界面主要参考了 [V2EX Workspace](http://workspace.v2ex.com/)
+
+
+## LICNESE
+
+[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+
+
+等你的 pull request <3
+
+
+## 作者
+
+[@xiaochibobo](https://github.com/xiaochibobo)
+
+[@hbc](https://github.com/bcho)
+
+[维生数工作室](http://www.vtmer.com)
