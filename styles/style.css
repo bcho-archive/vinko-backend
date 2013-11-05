@@ -48,19 +48,6 @@ body {
   display: none;
 }
 
-.items {
-  padding-left: 0;
-}
-
-.items .item {
-  margin-top: 10px;
-  padding: 5px 0 5px 20px;
-  position: relative;
-  left: -1px; /*保证三角形图片能覆盖border*/
-
-  font-size: 16px;  
-}
-
 /*Alert消息模块*/
 .alert {
   padding: 5px 15px;
@@ -125,22 +112,6 @@ button.close {
   text-shadow: 0 1px 0 #fff;
   opacity: .2;
   filter: alpha(opacity=20);
-}
-
-/*三角符号图标*/
-
-.section_hide {
-  position: absolute; 
-  left: -16px;
-  top: -3px;
-
-  visibility: hidden;
-}
-
-/* 哪个页面需要三角形图标就给那个li标签添加section类 */
-.section {
-  background-image: url(../images/section.png);
-  background-repeat: no-repeat;
 }
 
 .error {
@@ -307,7 +278,7 @@ button.close {
 }
 
 #site-infos {
-padding-left: 17px;
+  padding-left: 5px;
 }
 
 #module-content a {
@@ -335,9 +306,21 @@ padding-left: 17px;
 }
 
 #side-nav h3 {
-  padding-left: 5px;
+  padding-left: 3px;
 
   font-weight: 400;
+  font-size: 22px;
+}
+
+#side-nav .items {
+  padding-left: 0;
+}
+
+#side-nav .item {
+  margin-top: 7px;
+  padding-left: 15px;
+
+  font-size: 18px;
 }
 
 #side-nav .item a {
@@ -352,6 +335,17 @@ padding-left: 17px;
 #side-nav .item .fa {
   margin-left: 5px;
   margin-right: 8px;
+}
+
+/* 边栏三角形 */
+#side-nav .item {
+  position: relative;
+  left: -11px; /*保证三角形图片能覆盖border*/
+}
+
+#side-nav .current {
+  background-image: url(../images/section.png);
+  background-repeat: no-repeat;
 }
 
 
