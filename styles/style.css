@@ -370,6 +370,9 @@ button.close {
 /* 登录 */
 #login {
   margin-top: 140px;
+}
+
+#login .grid {
   padding-top: 25px;
   padding-bottom: 35px;
 }
