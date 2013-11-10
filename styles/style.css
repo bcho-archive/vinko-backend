@@ -80,14 +80,6 @@ body {
   border-color: #ebccd1;
 }
 
-.close:hover, .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-  opacity: .5;
-  filter: alpha(opacity=50);
-}
-
 .alert-dismissable .close {
   position: relative;
   top: 3px;
@@ -112,6 +104,50 @@ button.close {
   text-shadow: 0 1px 0 #fff;
   opacity: .2;
   filter: alpha(opacity=20);
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+
+.badges {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+ul.badges {
+  list-style: none;
+}
+
+ul.badges li {
+  display: inline-block;
+}
+
+.badge {
+  display: inline-block;
+  height: 125px;
+  width: 125px;
+  margin: 5px 10px;
+
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-size: 20px;
+  line-height: 125px;
+  background-color: #eee;
+}
+
+.badge a,
+a.badge {
+  text-decoration: none;
+}
+
+.badge:hover {
+  background-color: #e3e3e3;
 }
 
 .error {
@@ -261,12 +297,7 @@ button.close {
 }
 
 #module-content a {
-  text-decoration: none;
   color: #0f86e2;
-}
-
-#module-content a:hover {
-  text-decoration: underline;
 }
 
 #module-content li {
@@ -284,10 +315,6 @@ button.close {
 #module-content a {
   text-decoration: none;
   color: #0f86e2;
-}
-
-#module-content a:hover {
-  text-decoration: underline;
 }
 
 #module-content li {
