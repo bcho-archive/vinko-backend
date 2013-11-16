@@ -1,6 +1,6 @@
 # Vinko 后台主题
 
-一个简单的后台主题 [WIP]
+一个简单的后台主题
 
 [demo](http://vtmer.github.io/vinko-backend/)
 
